@@ -17,7 +17,7 @@ public class AnimalToggle : MonoBehaviour
     //Add sound effects
 
     //Get SQL data through PHP script for security
-    string messageData = "https://10.0.0.21/messageData.php";
+    string messageData = "https://flashcardsappdemo.000webhostapp.com/messageData.php";
     public Text incomingText;
 
     private void Start()
@@ -60,7 +60,7 @@ public class AnimalToggle : MonoBehaviour
     //Coroutine to determine how often to ping the server to prevent overflow
     IEnumerator DataTimer()
     {
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(2.0f);
         StartCoroutine(GetData());
     }
 

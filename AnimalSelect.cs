@@ -5,12 +5,12 @@ using UnityEngine.Networking;
 
 public class AnimalSelect : MonoBehaviour
 {
-    string duckOn = "https://10.0.0.21:80/DuckOn.php";
-    string duckOff = "https://10.0.0.21:80/DuckOff.php";
-    string lionOn = "https://10.0.0.21:80/LionOn.php";
-    string lionOff = "https://10.0.0.21:80/LionOff.php";
-    string monkeyOn = "https://10.0.0.21:80/MonkeyOn.php";
-    string monkeyOff = "https://10.0.0.21:80/MonkeyOff.php";
+    string duckOn = "https://flashcardsappdemo.000webhostapp.com/DuckOn.php";
+    string duckOff = "https://flashcardsappdemo.000webhostapp.com/DuckOff.php";
+    string lionOn = "https://flashcardsappdemo.000webhostapp.com/LionOn.php";
+    string lionOff = "https://flashcardsappdemo.000webhostapp.com/LionOff.php";
+    string monkeyOn = "https://flashcardsappdemo.000webhostapp.com/MonkeyOn.php";
+    string monkeyOff = "https://flashcardsappdemo.000webhostapp.com/MonkeyOff.php";
 
     bool duckStatus = false;
     bool lionStatus = false;
